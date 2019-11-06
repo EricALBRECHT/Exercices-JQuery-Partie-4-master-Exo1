@@ -1,31 +1,33 @@
-# Exercice Jquery - Partie 3
+# Exercice Jquery - Partie 4
 
-**IMPORTANT**
-Vous devez utiliser jQuery pour faire les exercices.
+## Exercice 1 :
 
-## Exercice 1
-Construisez une page html avec un bouton et un champ texte dans lequel on affiche le nombre de clics sur le bouton.
+Créer une liste déroulante avec trois éléments (Pierre, Feuille, Ciseaux). Ajouter un bouton « Shifumi ! ». Lorsque l'on clique sur « Shifumi ! », choisir un élément au hasard (Pierre, Feuille ou Ciseaux). Le comparer à l'élément choisi par le joueur pour voir qui a gagné entre l'humain et la machine.
 
-## Exercice 2
-Construisez une page html avec un bouton **+**, un bouton **-** et un champ number qui aura pour valeur 0. Augmenter ou baisser le chiffre dans ce champ en fonction des boutons cliqués.
+Bonus : Ajouter un compteur de victoires et de défaites et afficher le pourcentage de victoire contre l'ordinateur.
 
-## Exercice 3
-Construisez une page html avec un bouton et un champ number. Le but est de trouver un nombre entre 0 et 100. A chaque réponse la page répond :
-- plus
-- moins
-- correcte
+## Exercice 2 :
 
-Quand la réponse est trouvée, on obtient le nombre d'essais que l'on a fait.
+Demander à l'aide d'un formulaire les 5 dernières notes d'un élève.
 
-## Exercice 4
-Construisez une page html avec 5 boutons et un rectangle. Chaque bouton provoque une action sur le rectangle.
-- Bouton 1 : augmente la hauteur de 10px, si il dépasse 100px, il remet la hauteur à 10px
-- Bouton 2 : met le rectangle en vert
-- Bouton 3 : remet les couleurs initiales
-- Bouton 4 : fait disparaître le rectangle
-- Bouton 5 : fait réaparaître le rectangle
+Calculer sa moyenne et déterminer son appréciation.
 
-## Exercice 5
-Construisez une page html avec un carré et un champ de saisie de texte dans un formulaire.  
-Lorsque l'on appuie sur une touche de direction le carré se déplace de 10 px dans la bonne direction.  
-Quand le bloc atteint un bord de la page, il doit réaparaître de l'autre côté.
+- Si la moyenne de l'élève est supérieure ou égale à 0 et inférieure à 10, il aura comme appréciation : "En dessous de la moyenne".
+- Si la moyenne de l'élève est supérieure ou égale à 10 et inférieure à 13, il aura comme appréciation : "Moyen".
+- Si la moyenne de l'élève est supérieure ou égale à 13 et inférieure à 16, il aura comme appréciation : "Bien".
+- Si la moyenne de l'élève est supérieure ou égale à 16 et inférieure à 20, il aura comme appréciation : "Très bien".
+- Si la moyenne de l'élève est égale à 20, il aura comme appréciation : "Excellent".
+
+Afficher la moyenne et l'appréciation de l'élève.
+
+## Exercice 3 :
+
+Créer un formulaire qui demande le nom, le prénom, l'adresse mail et le numéro de téléphone de l'utilisateur.
+Verifier que l'adresse mail est bien une adresse mail, vérifier que le numéro de téléphone ne comporte que des chiffres, et que le nom et le prénom ne contiennent que des lettres ou des tirets.
+
+## Exercice 4 :
+
+Créer un formulaire demandant le nom, le prénom, la date de naissance, le lieu de naissance, l'emploi et la société.
+Créer un bouton "Générer" permettant de créer une courte phrase de présentation.
+
+Exemple : Si les données saisies sont : "Jérôme OTT, 5/06/1990, Margny-lès-Compiègne, Formateur, Novei", la phrase de présentation sera : "Jérôme OTT, né le 5/06/1990 à Margny-lès-Compiègne, actuellement Formateur à Novei
