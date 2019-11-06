@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Exercice 1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row col-8 offset-2">
+      <div class="card ">
+        <div class="card-header">
+          <h4>Jeux Shifumi</h4>
+        </div>
+        <div class="card-body">
+
+          <form>
+            <select name="shifumi" id="shifumi-select">
+              <option value="0">--Selectionner votre Shifumi--</option>
+              <option value="1">Pierre</option>
+              <option value="2">Feuille</option>
+              <option value="3">Ciseaux</option>
+            </select>
+            <input type="button" id="button" class="btn btn-primary btn-md" value="Shifumi!">
+          </form>
+          <table>
+            <tr>
+              <th>Humain</th>
+              <th>Machine</th>
+            </tr>
+            <tr>
+              <td><img src="assets/img/choice.png" class="img-fluid" alt="choice" id="humainImg"></td>
+              <td><img src="assets/img/choice.png" class="img-fluid" alt="choice" id="machineImg"></td>
+            </tr>
+
+          </table>
+
+
+          <p id="compare"></p>
+          <p id="success"></p>
+          <p id="defeat"></p>
+          <p id="percentSuccess"></p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets\js\jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
